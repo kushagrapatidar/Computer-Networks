@@ -55,5 +55,6 @@ tmessage=sender(sbits)
 message=''
 for i in tmessage:
     message+=str(i)
-print(message)
+print('Transmitted Message:',message)
+message=input('Enter the recieved message bit string: ')
 reciever(message)
